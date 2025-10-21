@@ -6,7 +6,7 @@ service:
         secretKeyRef:
           key: OPENAI_API_KEY
           name: api-key-secret
-  image: kcr.us-east-1.kalix.io/lightbend-eng/release-pipeline-test/backoffice:1.0-SNAPSHOT-20251020171037
+  image: kcr.us-east-1.kalix.io/lightbend-eng/release-pipeline-test/backoffice:5.0
   resources:
     runtime:
       mode: embedded
