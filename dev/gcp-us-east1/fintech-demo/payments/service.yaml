@@ -1,6 +1,6 @@
 name: payments
 service:
-  image: kcr.us-east-1.kalix.io/lightbend-eng/release-pipeline-test/payments:1.0-SNAPSHOT-20251020171037
+  image: kcr.us-east-1.kalix.io/lightbend-eng/release-pipeline-test/payments:6.0
   resources:
     runtime:
       mode: embedded
