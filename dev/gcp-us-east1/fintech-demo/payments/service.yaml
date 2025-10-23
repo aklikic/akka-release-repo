@@ -1,6 +1,6 @@
 name: payments
 service:
-  image: samirachoscalac/akka-demo:payments-0.0.0-dev
+  image: samirachoscalac/akka-demo:payments-1.0.2-dev
   resources:
     runtime:
       mode: embedded
