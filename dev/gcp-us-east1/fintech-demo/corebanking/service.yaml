@@ -1,6 +1,6 @@
 name: corebanking
 service:
-  image: samirachoscalac/akka-demo:corebanking-0.0.0-dev
+  image: samirachoscalac/akka-demo:corebanking-1.0.3-dev
   resources:
     runtime:
       mode: embedded
