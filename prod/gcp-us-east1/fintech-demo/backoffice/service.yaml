@@ -6,7 +6,7 @@ service:
         secretKeyRef:
           key: OPENAI_API_KEY
           name: api-key-secret
-  image: samirachoscalac/akka-demo:backoffice-0.0.0-prod
+  image: samirachoscalac/akka-demo:backoffice-1.0.2-prod
   resources:
     runtime:
       mode: embedded
